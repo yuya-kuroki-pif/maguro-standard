@@ -1,14 +1,43 @@
 {
   "domain": "maguro-standard.com",
-  "name": "マグロスタンダード",
+  "name": "マグロスタンダード 門前仲町店",
   "kind": "store",
-  "tagline": "",
-  "address": "",
-  "tel": "",
-  "hours": "",
-  "closed": "",
-  "access": "",
-  "instagram": "",
-  "reservation_url": "",
-  "google_maps_url": ""
+  "tagline": "マグロの全てを体験",
+  "postal_code": "〒135-0047",
+  "address": "東京都江東区富岡1-25-4 ニックハイム八幡103",
+  "tel": "03-5809-8066",
+  "hours": {
+    "mon_fri": "16:00～23:00 (L.O. FOOD 22:00, DRINK 22:30)",
+    "sat": "13:00～23:00 (L.O. FOOD 22:00, DRINK 22:30)",
+    "sun_holiday": "13:00～22:00 (L.O. FOOD 21:00, DRINK 21:30)"
+  },
+  "closed": "不定休",
+  "access": "門前仲町駅より徒歩3分",
+  "invoice_registered": true,
+  "instagram": "https://www.instagram.com/magurostandard/",
+  "instagram_account": "@magurostandard",
+  "reservation_url": "https://yoyaku.tabelog.com/yoyaku/net_booking_form/index?rcd=13268261",
+  "recruit_url": "https://pay-it-forward-corporate.com/recruit/",
+  "google_maps_url": "https://www.google.com/maps?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA%E5%AF%8C%E5%B2%A11-25-4%20%E3%83%8B%E3%83%83%E3%82%AF%E3%83%8F%E3%82%A4%E3%83%A0%E5%85%AB%E5%B9%A1103",
+  "google_maps_embed": "https://www.google.com/maps?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA%E5%AF%8C%E5%B2%A11-25-4%20%E3%83%8B%E3%83%83%E3%82%AF%E3%83%8F%E3%82%A4%E3%83%A0%E5%85%AB%E5%B9%A1103&output=embed",
+  "sister_brand_banner": {
+    "name": "マグロと炉端 成る",
+    "url": "https://maguro-robata-naru.com/",
+    "image": "/images/naru-banner.jpg"
+  },
+  "pages": [
+    { "path": "/", "title": "トップ" },
+    { "path": "/concept/", "title": "こだわり" },
+    { "path": "/course/", "title": "コース" },
+    { "path": "/food/", "title": "お食事" },
+    { "path": "/drink/", "title": "お飲み物" },
+    { "path": "/table/", "title": "席・空間" },
+    { "path": "/group/", "title": "団体情報" },
+    { "path": "/special/", "title": "限定特典" },
+    { "path": "/sister-store/", "title": "姉妹店紹介" },
+    { "path": "/media/", "title": "メディア掲載実績" },
+    { "path": "/information/", "title": "お知らせ" },
+    { "path": "/story/", "title": "お店を作った経緯" },
+    { "path": "/privacy/", "title": "個人情報保護方針" }
+  ]
 }
