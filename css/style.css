@@ -44,7 +44,7 @@ body {
   line-height: 1.9;
   color: var(--text);
   background-color: #e8e8e8;
-  background-image: url("/images/body-bg.jpg");
+  background-image: url("../images/body-bg.jpg");
   background-size: 100% auto;
   background-repeat: repeat;
   letter-spacing: 0.03em;
@@ -172,7 +172,7 @@ p {
   height: var(--header-h);
   color: var(--white);
   background-color: var(--navy-2);
-  background-image: linear-gradient(rgba(12, 40, 98, 0.86), rgba(5, 19, 47, 0.92)), url("/images/header-bg.jpg");
+  background-image: linear-gradient(rgba(12, 40, 98, 0.86), rgba(5, 19, 47, 0.92)), url("../images/header-bg.jpg");
   background-size: cover;
   background-position: center;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
@@ -464,26 +464,26 @@ p {
 }
 
 .feature--concept {
-  background-image: url("/images/deco-maguro-1.png");
+  background-image: url("../images/deco-maguro-1.png");
   background-position: 96% 6%;
   background-size: 260px auto;
 }
 
 .feature--food {
   background-color: var(--navy-3);
-  background-image: url("/images/deco-maguro-2.png");
+  background-image: url("../images/deco-maguro-2.png");
   background-position: 2% 94%;
   background-size: 180px auto;
 }
 
 .feature--drink {
-  background-image: url("/images/deco-wave-1.png");
+  background-image: url("../images/deco-wave-1.png");
   background-position: 100% 10%;
   background-size: 420px auto;
 }
 
 .feature--table {
-  background-image: url("/images/top-table.jpg");
+  background-image: url("../images/top-table.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -603,7 +603,7 @@ p {
 
 /* Instagram */
 .instagram {
-  background: #f3f1ec url("/images/deco-wave-2.png") no-repeat -8% 0 / 60% auto;
+  background: #f3f1ec url("../images/deco-wave-2.png") no-repeat -8% 0 / 60% auto;
   color: var(--text);
   text-align: center;
   padding: 72px 0;
@@ -633,7 +633,7 @@ p {
   color: var(--white);
   text-align: center;
   padding: 44px 16px 36px;
-  background-image: url("/images/deco-wave-1.png");
+  background-image: url("../images/deco-wave-1.png");
   background-repeat: no-repeat;
   background-position: 100% 0;
   background-size: 360px auto;
@@ -1111,7 +1111,7 @@ p {
    -------------------------------------------------------------------------- */
 .shop-info {
   background-color: var(--black);
-  background-image: linear-gradient(rgba(0, 2, 18, 0.78), rgba(0, 2, 18, 0.95)), url("/images/footer-bg.jpg");
+  background-image: linear-gradient(rgba(0, 2, 18, 0.78), rgba(0, 2, 18, 0.95)), url("../images/footer-bg.jpg");
   background-size: cover;
   background-position: center top;
   color: var(--white);

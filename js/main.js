@@ -35,10 +35,15 @@
   }
 
   // 現在ページのナビを強調
+  function navTarget(a) {
+    var raw = a.getAttribute('href') || '';
+    if (!raw || raw.indexOf('#') !== -1 || /^(https?:|mailto:|tel:)/.test(raw)) return null;
+    return { p: new URL(raw, location.href).pathname.replace(/index\.html$/, ''), home: /^(\.\.?\/)*$/.test(raw) };
+  }
   var path = location.pathname.replace(/index\.html$/, '');
   document.querySelectorAll('.nav-list a[href]').forEach(function (a) {
-    var href = a.getAttribute('href');
-    if (href && href.indexOf('/') === 0 && href.indexOf('#') === -1 && href === path) {
+    var t = navTarget(a);
+    if (t && t.p === path) {
       var li = a.closest('.nav-list > li');
       if (li) li.classList.add('is-current');
     }
