@@ -1,11 +1,13 @@
 {
   "google": {
-    "place_id": "",
+    "place_id": "ChIJ6SEGI5OJGGARsBqX9QBWL2E",
     "query": "マグロスタンダード 門前仲町店 東京都江東区富岡1-25-4",
-    "rating": null,
-    "count": null,
-    "url": "https://www.google.com/maps/search/?api=1&query=%E3%83%9E%E3%82%B0%E3%83%AD%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%20%E9%96%80%E5%89%8D%E4%BB%B2%E7%94%BA%E5%BA%97%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA%E5%AF%8C%E5%B2%A11-25-4",
-    "updated": null
+    "rating": 4.6,
+    "count": 1148,
+    "url": "https://maps.google.com/?cid=7002910507704720048&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+    "updated": "2026-11-17",
+    "matched_name": "マグロスタンダード 門前仲町店",
+    "matched_address": "〒135-0047 東京都江東区富岡１丁目２５−４ ニックハイム八幡 103"
   },
   "tabelog": {
     "score": 3.46,
